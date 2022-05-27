@@ -1,0 +1,440 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local hoodui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local line1 = Instance.new("Frame")
+local line2 = Instance.new("Frame")
+local untitledhood = Instance.new("TextButton")
+local dahoodd = Instance.new("TextButton")
+local hoodmodded = Instance.new("TextButton")
+local credits = Instance.new("TextButton")
+local untitledhood_2 = Instance.new("Frame")
+local infiniteyield2 = Instance.new("TextButton")
+local oplock2 = Instance.new("TextButton")
+local hoodmodded_2 = Instance.new("Frame")
+local oplock3 = Instance.new("TextButton")
+local softvortex3 = Instance.new("TextButton")
+local dahood = Instance.new("Frame")
+local meeleegod = Instance.new("TextButton")
+local godv3 = Instance.new("TextButton")
+local swagmodeprem = Instance.new("TextButton")
+local fefat = Instance.new("TextButton")
+local oplock = Instance.new("TextButton")
+local silentaim = Instance.new("TextButton")
+local macro = Instance.new("TextButton")
+local blestrondlock = Instance.new("TextButton")
+local streamablelock = Instance.new("TextButton")
+local yukfun = Instance.new("TextButton")
+local creditss = Instance.new("Frame")
+local title_2 = Instance.new("TextLabel")
+
+--Properties:
+
+hoodui.Name = "hood ui"
+hoodui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = hoodui
+main.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+main.Position = UDim2.new(0.341973245, 0, 0.276073635, 0)
+main.Size = UDim2.new(0, 569, 0, 365)
+main.Active = true
+main.Draggable = true
+
+
+title.Name = "title"
+title.Parent = main
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.Position = UDim2.new(0.0158172231, 0, 0, 0)
+title.Size = UDim2.new(0, 144, 0, 40)
+title.Font = Enum.Font.SourceSansBold
+title.Text = "scripts and locks"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextSize = 24.000
+
+line1.Name = "line 1"
+line1.Parent = main
+line1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+line1.Position = UDim2.new(0, 0, 0.10958904, 0)
+line1.Size = UDim2.new(0, 569, 0, 5)
+
+line2.Name = "line 2"
+line2.Parent = main
+line2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+line2.Position = UDim2.new(0.20913884, 0, 0.12328767, 0)
+line2.Size = UDim2.new(0, 5, 0, 320)
+
+untitledhood.Name = "untitled hood"
+untitledhood.Parent = main
+untitledhood.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+untitledhood.BackgroundTransparency = 1.000
+untitledhood.Position = UDim2.new(0.015817225, 0, 0.172602743, 0)
+untitledhood.Size = UDim2.new(0, 100, 0, 57)
+untitledhood.Font = Enum.Font.SourceSansBold
+untitledhood.Text = "untitled hood"
+untitledhood.TextColor3 = Color3.fromRGB(255, 255, 255)
+untitledhood.TextSize = 19.000
+untitledhood.TextWrapped = true
+
+dahoodd.Name = "dahoodd"
+dahoodd.Parent = main
+dahoodd.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dahoodd.BackgroundTransparency = 1.000
+dahoodd.Position = UDim2.new(0.015817225, 0, 0.361643821, 0)
+dahoodd.Size = UDim2.new(0, 100, 0, 57)
+dahoodd.Font = Enum.Font.SourceSansBold
+dahoodd.Text = "dahood"
+dahoodd.TextColor3 = Color3.fromRGB(255, 255, 255)
+dahoodd.TextSize = 19.000
+dahoodd.TextWrapped = true
+
+hoodmodded.Name = "hood modded"
+hoodmodded.Parent = main
+hoodmodded.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hoodmodded.BackgroundTransparency = 1.000
+hoodmodded.Position = UDim2.new(0.015817225, 0, 0.517808199, 0)
+hoodmodded.Size = UDim2.new(0, 100, 0, 57)
+hoodmodded.Font = Enum.Font.SourceSansBold
+hoodmodded.Text = "hood modded"
+hoodmodded.TextColor3 = Color3.fromRGB(255, 255, 255)
+hoodmodded.TextSize = 19.000
+hoodmodded.TextWrapped = true
+
+credits.Name = "credits"
+credits.Parent = main
+credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credits.BackgroundTransparency = 1.000
+credits.Position = UDim2.new(0.015817225, 0, 0.698630095, 0)
+credits.Size = UDim2.new(0, 100, 0, 57)
+credits.Font = Enum.Font.SourceSansBold
+credits.Text = "credits"
+credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+credits.TextSize = 19.000
+credits.TextWrapped = true
+
+untitledhood_2.Name = "untitledhood"
+untitledhood_2.Parent = main
+untitledhood_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+untitledhood_2.BackgroundTransparency = 1.000
+untitledhood_2.Position = UDim2.new(0.217926189, 0, 0.12328767, 0)
+untitledhood_2.Size = UDim2.new(0, 445, 0, 320)
+
+infiniteyield2.Name = "infinite yield 2"
+infiniteyield2.Parent = untitledhood_2
+infiniteyield2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield2.BackgroundTransparency = 1.000
+infiniteyield2.Position = UDim2.new(0.0382022262, 0, 0.0375000238, 0)
+infiniteyield2.Size = UDim2.new(0, 170, 0, 50)
+infiniteyield2.Font = Enum.Font.SourceSansBold
+infiniteyield2.Text = "infinite yield"
+infiniteyield2.TextColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield2.TextSize = 25.000
+infiniteyield2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+
+oplock2.Name = "op lock 2"
+oplock2.Parent = untitledhood_2
+oplock2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+oplock2.BackgroundTransparency = 1.000
+oplock2.Position = UDim2.new(0.537078619, 0, 0.0375000238, 0)
+oplock2.Size = UDim2.new(0, 170, 0, 50)
+oplock2.Font = Enum.Font.SourceSansBold
+oplock2.Text = "op lock"
+oplock2.TextColor3 = Color3.fromRGB(255, 255, 255)
+oplock2.TextSize = 25.000
+oplock2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/8s39/oplock/main/eeks%20lock.txt", true))()
+
+end)
+
+hoodmodded_2.Name = "hoodmodded"
+hoodmodded_2.Parent = main
+hoodmodded_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hoodmodded_2.BackgroundTransparency = 1.000
+hoodmodded_2.Position = UDim2.new(0.217926189, 0, 0.12328767, 0)
+hoodmodded_2.Size = UDim2.new(0, 445, 0, 320)
+
+oplock3.Name = "op lock 3"
+oplock3.Parent = hoodmodded_2
+oplock3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+oplock3.BackgroundTransparency = 1.000
+oplock3.Position = UDim2.new(0.0382022262, 0, 0.0375000238, 0)
+oplock3.Size = UDim2.new(0, 170, 0, 50)
+oplock3.Font = Enum.Font.SourceSansBold
+oplock3.Text = "op lock"
+oplock3.TextColor3 = Color3.fromRGB(255, 255, 255)
+oplock3.TextSize = 25.000
+oplock3.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/8s39/oplock/main/eeks%20lock.txt", true))()
+
+end)
+softvortex3.Name = "softvortex 3"
+softvortex3.Parent = hoodmodded_2
+softvortex3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+softvortex3.BackgroundTransparency = 1.000
+softvortex3.Position = UDim2.new(0.537078619, 0, 0.0375000238, 0)
+softvortex3.Size = UDim2.new(0, 170, 0, 50)
+softvortex3.Font = Enum.Font.SourceSansBold
+softvortex3.Text = "softvortex"
+softvortex3.TextColor3 = Color3.fromRGB(255, 255, 255)
+softvortex3.TextSize = 25.000
+softvortex3.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoftVortex/meskro/main/11"),true))()
+
+end)
+dahood.Name = "dahood"
+dahood.Parent = main
+dahood.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dahood.BackgroundTransparency = 1.000
+dahood.Position = UDim2.new(0.217926189, 0, 0.12328767, 0)
+dahood.Size = UDim2.new(0, 445, 0, 320)
+
+meeleegod.Name = "meelee god"
+meeleegod.Parent = dahood
+meeleegod.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+meeleegod.BackgroundTransparency = 1.000
+meeleegod.Position = UDim2.new(0.0382022485, 0, 0.037499994, 0)
+meeleegod.Size = UDim2.new(0, 170, 0, 50)
+meeleegod.Font = Enum.Font.SourceSansBold
+meeleegod.Text = "meelee god"
+meeleegod.TextColor3 = Color3.fromRGB(255, 255, 255)
+meeleegod.TextSize = 25.000
+meeleegod.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/8s39/meeleegod/main/meelee%20god.txt"),true))()
+
+end)
+
+godv3.Name = "god v3"
+godv3.Parent = dahood
+godv3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+godv3.BackgroundTransparency = 1.000
+godv3.Position = UDim2.new(0.0382022485, 0, 0.234375, 0)
+godv3.Size = UDim2.new(0, 170, 0, 50)
+godv3.Font = Enum.Font.SourceSansBold
+godv3.Text = "god v3"
+godv3.TextColor3 = Color3.fromRGB(255, 255, 255)
+godv3.TextSize = 25.000
+godv3.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/Godv3'))()
+
+end)
+
+
+swagmodeprem.Name = "swag mode prem"
+swagmodeprem.Parent = dahood
+swagmodeprem.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+swagmodeprem.BackgroundTransparency = 1.000
+swagmodeprem.Position = UDim2.new(0.0382022485, 0, 0.421875, 0)
+swagmodeprem.Size = UDim2.new(0, 170, 0, 50)
+swagmodeprem.Font = Enum.Font.SourceSansBold
+swagmodeprem.Text = "swag mode prem"
+swagmodeprem.TextColor3 = Color3.fromRGB(255, 255, 255)
+swagmodeprem.TextSize = 25.000
+swagmodeprem.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/cypherdh/SwagModePremiumCracked/main/script"))()
+
+end)
+
+
+fefat.Name = "fe fat"
+fefat.Parent = dahood
+fefat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fefat.BackgroundTransparency = 1.000
+fefat.Position = UDim2.new(0.0382022485, 0, 0.628125012, 0)
+fefat.Size = UDim2.new(0, 170, 0, 50)
+fefat.Font = Enum.Font.SourceSansBold
+fefat.Text = "fe fat"
+fefat.TextColor3 = Color3.fromRGB(255, 255, 255)
+fefat.TextSize = 25.000
+fefat.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.BodyDepthScale:Destroy()
+	game.Players.LocalPlayer.Character.Humanoid.BodyWidthScale:Destroy()
+
+end)
+
+oplock.Name = "op lock"
+oplock.Parent = dahood
+oplock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+oplock.BackgroundTransparency = 1.000
+oplock.Position = UDim2.new(0.0382022485, 0, 0.834375024, 0)
+oplock.Size = UDim2.new(0, 170, 0, 50)
+oplock.Font = Enum.Font.SourceSansBold
+oplock.Text = "op lock"
+oplock.TextColor3 = Color3.fromRGB(255, 255, 255)
+oplock.TextSize = 25.000
+oplock.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/8s39/oplock/main/eeks%20lock.txt", true))()
+
+end)
+
+silentaim.Name = "silent aim"
+silentaim.Parent = dahood
+silentaim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+silentaim.BackgroundTransparency = 1.000
+silentaim.Position = UDim2.new(0.537078619, 0, 0.037499994, 0)
+silentaim.Size = UDim2.new(0, 170, 0, 50)
+silentaim.Font = Enum.Font.SourceSansBold
+silentaim.Text = "silent aim"
+silentaim.TextColor3 = Color3.fromRGB(255, 255, 255)
+silentaim.TextSize = 25.000
+silentaim.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/8s39/silentaim/main/best", true))()
+
+end)
+
+macro.Name = "macro"
+macro.Parent = dahood
+macro.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+macro.BackgroundTransparency = 1.000
+macro.Position = UDim2.new(0.537078619, 0, 0.234375, 0)
+macro.Size = UDim2.new(0, 170, 0, 50)
+macro.Font = Enum.Font.SourceSansBold
+macro.Text = "macro"
+macro.TextColor3 = Color3.fromRGB(255, 255, 255)
+macro.TextSize = 25.000
+macro.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/8s39/fakemacro/main/fake%20macro.txt", true))()
+
+end)
+
+blestrondlock.Name = "blestrond lock"
+blestrondlock.Parent = dahood
+blestrondlock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+blestrondlock.BackgroundTransparency = 1.000
+blestrondlock.Position = UDim2.new(0.537078619, 0, 0.421875, 0)
+blestrondlock.Size = UDim2.new(0, 170, 0, 50)
+blestrondlock.Font = Enum.Font.SourceSansBold
+blestrondlock.Text = "blestrond lock"
+blestrondlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+blestrondlock.TextSize = 25.000
+blestrondlock.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/8s39/blestrondlock/main/thusky_pink_1.txt", true))()
+
+end)
+
+streamablelock.Name = "streamable lock"
+streamablelock.Parent = dahood
+streamablelock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+streamablelock.BackgroundTransparency = 1.000
+streamablelock.Position = UDim2.new(0.537078619, 0, 0.628124952, 0)
+streamablelock.Size = UDim2.new(0, 170, 0, 50)
+streamablelock.Font = Enum.Font.SourceSansBold
+streamablelock.Text = "streamable lock"
+streamablelock.TextColor3 = Color3.fromRGB(255, 255, 255)
+streamablelock.TextSize = 25.000
+streamablelock.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/8s39/streamablelock/main/streamable%20aimlock.lua", true))()
+
+end)
+
+yukfun.Name = "yukfun"
+yukfun.Parent = dahood
+yukfun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yukfun.BackgroundTransparency = 1.000
+yukfun.Position = UDim2.new(0.537078619, 0, 0.809374988, 0)
+yukfun.Size = UDim2.new(0, 170, 0, 50)
+yukfun.Font = Enum.Font.SourceSansBold
+yukfun.Text = "yukfun"
+yukfun.TextColor3 = Color3.fromRGB(255, 255, 255)
+yukfun.TextSize = 25.000
+yukfun.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/8s39/yukfun/main/yukfun.txt", true))()
+
+end)
+
+creditss.Name = "creditss"
+creditss.Parent = main
+creditss.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+creditss.BackgroundTransparency = 1.000
+creditss.Position = UDim2.new(0.217926189, 0, 0.12328767, 0)
+creditss.Size = UDim2.new(0, 445, 0, 320)
+
+title_2.Name = "title"
+title_2.Parent = creditss
+title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_2.BackgroundTransparency = 1.000
+title_2.Position = UDim2.new(0.310199261, 0, 0.390625, 0)
+title_2.Size = UDim2.new(0, 144, 0, 40)
+title_2.Font = Enum.Font.SourceSansBold
+title_2.Text = "me"
+title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+title_2.TextSize = 24.000
+
+-- Scripts:
+
+local function IIDZDXW_fake_script() -- untitledhood.click 
+	local script = Instance.new('LocalScript', untitledhood)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.dahood.Visible = false
+		script.Parent.Parent.hoodmodded.Visible = false
+		script.Parent.Parent.untitledhood.Visible = true
+		script.Parent.Parent.creditss.Visible = false
+	end)
+
+
+end
+coroutine.wrap(IIDZDXW_fake_script)()
+local function KDFGEM_fake_script() -- dahoodd.click 
+	local script = Instance.new('LocalScript', dahoodd)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.dahood.Visible = true
+		script.Parent.Parent.hoodmodded.Visible = false
+		script.Parent.Parent.untitledhood.Visible = false
+		script.Parent.Parent.creditss.Visible = false
+	end)
+
+end
+coroutine.wrap(KDFGEM_fake_script)()
+local function OHDAXQA_fake_script() -- hoodmodded.click 
+	local script = Instance.new('LocalScript', hoodmodded)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.dahood.Visible = false
+		script.Parent.Parent.hoodmodded.Visible = true
+		script.Parent.Parent.untitledhood.Visible = false
+		script.Parent.Parent.creditss.Visible = false
+	end)
+
+
+end
+coroutine.wrap(OHDAXQA_fake_script)()
+local function HYARIAY_fake_script() -- credits.click 
+	local script = Instance.new('LocalScript', credits)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.dahood.Visible = false
+		script.Parent.Parent.hoodmodded.Visible = false
+		script.Parent.Parent.untitledhood.Visible = false
+		script.Parent.Parent.creditss.Visible = true
+	end)
+
+
+end
+coroutine.wrap(HYARIAY_fake_script)()
+
+local function AGVHE_fake_script() -- main.LocalScript 
+	local script = Instance.new('LocalScript', main)
+
+	local frame = script.Parent 
+	local mouse = game:GetService('Players').LocalPlayer:GetMouse();
+	local ui = game:GetService("UserInputService")
+	ui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.RightControl then -- edit this to your desired keycode ex: Eum.KeyCode.RightShift 
+				frame.Visible = not frame.Visible 
+			end
+		end
+
+	end)
+
+end
+
